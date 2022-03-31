@@ -35,5 +35,7 @@ public class StaticKeyword {
         System.out.println(obj1.sayi1); // 3
         System.out.println(obj2.sayi2); // 1
         System.out.println(obj2.sayi1); // 3
+//           climb();
+
     }
 }
