@@ -13,9 +13,21 @@ public class C05_Exceptions {
             int sayi= 0;
             try {
                 sayi = scan.nextInt();
+                toplam+=sayi;
             } catch (InputMismatchException e) {
+                String hataliGiris = String.valueOf(scan.nextInt());
+                if (hataliGiris.equalsIgnoreCase("q")){
+                    System.out.println("Girdiginiz sayilarin toplami : "+toplam);
+                    break;
+                }else {
+                    System.out.println("hatali giris");
+                }
             }
-            toplam+=sayi;
+
+
+
+
+
         }while (toplam<500);
     }
 }
