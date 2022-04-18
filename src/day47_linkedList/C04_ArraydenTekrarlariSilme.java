@@ -1,10 +1,8 @@
 package day47_linkedList;
-import java.lang.reflect.Array;
 import java.util.Arrays;
-import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;
-public class C04_ArraydentekrarlariSilme {
+public class C04_ArraydenTekrarlariSilme {
     public static void main(String[] args) {
         // verilen bir array'den tekrar eden elementleri silip
         // unique elementler olusan bir array haline donduren bir method olusturun
